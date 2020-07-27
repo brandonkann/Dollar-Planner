@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C08A0139F6D037F5C7C5C39B /* Pods_TableViewPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616859A744F653B5BE485735 /* Pods_TableViewPractice.framework */; };
+		CA6CBBD6247B21940093D097 /* Savings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6CBBD5247B21940093D097 /* Savings.swift */; };
+		CA6CBBD8247B2CB00093D097 /* ProjectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6CBBD7247B2CB00093D097 /* ProjectionViewController.swift */; };
+		CA6CBBDA247B50210093D097 /* 98344885_589871521926218_5820213154650521600_n.png in Resources */ = {isa = PBXBuildFile; fileRef = CA6CBBD9247B50210093D097 /* 98344885_589871521926218_5820213154650521600_n.png */; };
+		CA9C32852479986100284E49 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C32842479986100284E49 /* PaymentViewController.swift */; };
+		CA9C3287247998E600284E49 /* Payments.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C3286247998E600284E49 /* Payments.swift */; };
+		CA9C32892479AACF00284E49 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C32882479AACF00284E49 /* DashboardViewController.swift */; };
+		CABEF7A3247C513A00AC8B20 /* AnalyticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEF7A2247C513A00AC8B20 /* AnalyticsViewController.swift */; };
 		CAE73E8724771B3E005A7B4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE73E8624771B3E005A7B4E /* AppDelegate.swift */; };
 		CAE73E8924771B3E005A7B4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE73E8824771B3E005A7B4E /* SceneDelegate.swift */; };
-		CAE73E8B24771B3E005A7B4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE73E8A24771B3E005A7B4E /* ViewController.swift */; };
+		CAE73E8B24771B3E005A7B4E /* IncomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE73E8A24771B3E005A7B4E /* IncomeViewController.swift */; };
 		CAE73E8E24771B3E005A7B4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE73E8C24771B3E005A7B4E /* Main.storyboard */; };
 		CAE73E9024771B41005A7B4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE73E8F24771B41005A7B4E /* Assets.xcassets */; };
 		CAE73E9324771B41005A7B4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE73E9124771B41005A7B4E /* LaunchScreen.storyboard */; };
+		CAE73E9D24771F8F005A7B4E /* Income .swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE73E9C24771F8F005A7B4E /* Income .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CAE73E8324771B3E005A7B4E /* TableViewPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		066340654DE41D9BDA05DF39 /* Pods-TableViewPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewPractice.release.xcconfig"; path = "Target Support Files/Pods-TableViewPractice/Pods-TableViewPractice.release.xcconfig"; sourceTree = "<group>"; };
+		616859A744F653B5BE485735 /* Pods_TableViewPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableViewPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA33779BADB3087C3693AD94 /* Pods-TableViewPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewPractice.debug.xcconfig"; path = "Target Support Files/Pods-TableViewPractice/Pods-TableViewPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		CA6CBBD5247B21940093D097 /* Savings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Savings.swift; sourceTree = "<group>"; };
+		CA6CBBD7247B2CB00093D097 /* ProjectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectionViewController.swift; sourceTree = "<group>"; };
+		CA6CBBD9247B50210093D097 /* 98344885_589871521926218_5820213154650521600_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 98344885_589871521926218_5820213154650521600_n.png; sourceTree = "<group>"; };
+		CA9C32842479986100284E49 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		CA9C3286247998E600284E49 /* Payments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payments.swift; sourceTree = "<group>"; };
+		CA9C32882479AACF00284E49 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		CABEF7A2247C513A00AC8B20 /* AnalyticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsViewController.swift; sourceTree = "<group>"; };
+		CAE73E8324771B3E005A7B4E /* DollarPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DollarPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE73E8624771B3E005A7B4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAE73E8824771B3E005A7B4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CAE73E8A24771B3E005A7B4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAE73E8A24771B3E005A7B4E /* IncomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeViewController.swift; sourceTree = "<group>"; };
 		CAE73E8D24771B3E005A7B4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAE73E8F24771B41005A7B4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAE73E9224771B41005A7B4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAE73E9424771B41005A7B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE73E9C24771F8F005A7B4E /* Income .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Income .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +51,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C08A0139F6D037F5C7C5C39B /* Pods_TableViewPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B545C9C7E754DAA48B6B69C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA33779BADB3087C3693AD94 /* Pods-TableViewPractice.debug.xcconfig */,
+				066340654DE41D9BDA05DF39 /* Pods-TableViewPractice.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5C1EBFF5429E36441D421E9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				616859A744F653B5BE485735 /* Pods_TableViewPractice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CAE73E7A24771B3E005A7B4E = {
 			isa = PBXGroup;
 			children = (
 				CAE73E8524771B3E005A7B4E /* TableViewPractice */,
 				CAE73E8424771B3E005A7B4E /* Products */,
+				2B545C9C7E754DAA48B6B69C /* Pods */,
+				5C1EBFF5429E36441D421E9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		CAE73E8424771B3E005A7B4E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CAE73E8324771B3E005A7B4E /* TableViewPractice.app */,
+				CAE73E8324771B3E005A7B4E /* DollarPlanner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,9 +98,17 @@
 			children = (
 				CAE73E8624771B3E005A7B4E /* AppDelegate.swift */,
 				CAE73E8824771B3E005A7B4E /* SceneDelegate.swift */,
-				CAE73E8A24771B3E005A7B4E /* ViewController.swift */,
+				CAE73E8A24771B3E005A7B4E /* IncomeViewController.swift */,
+				CA9C32842479986100284E49 /* PaymentViewController.swift */,
+				CA9C32882479AACF00284E49 /* DashboardViewController.swift */,
+				CABEF7A2247C513A00AC8B20 /* AnalyticsViewController.swift */,
+				CA6CBBD7247B2CB00093D097 /* ProjectionViewController.swift */,
+				CAE73E9C24771F8F005A7B4E /* Income .swift */,
+				CA9C3286247998E600284E49 /* Payments.swift */,
+				CA6CBBD5247B21940093D097 /* Savings.swift */,
 				CAE73E8C24771B3E005A7B4E /* Main.storyboard */,
 				CAE73E8F24771B41005A7B4E /* Assets.xcassets */,
+				CA6CBBD9247B50210093D097 /* 98344885_589871521926218_5820213154650521600_n.png */,
 				CAE73E9124771B41005A7B4E /* LaunchScreen.storyboard */,
 				CAE73E9424771B41005A7B4E /* Info.plist */,
 			);
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAE73E9724771B41005A7B4E /* Build configuration list for PBXNativeTarget "TableViewPractice" */;
 			buildPhases = (
+				9821AD695BBD286FAF5B5F1E /* [CP] Check Pods Manifest.lock */,
 				CAE73E7F24771B3E005A7B4E /* Sources */,
 				CAE73E8024771B3E005A7B4E /* Frameworks */,
 				CAE73E8124771B3E005A7B4E /* Resources */,
+				0E2E7E1CCBDF606FCAEE5FCC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +134,7 @@
 			);
 			name = TableViewPractice;
 			productName = TableViewPractice;
-			productReference = CAE73E8324771B3E005A7B4E /* TableViewPractice.app */;
+			productReference = CAE73E8324771B3E005A7B4E /* DollarPlanner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,19 +178,69 @@
 				CAE73E9324771B41005A7B4E /* LaunchScreen.storyboard in Resources */,
 				CAE73E9024771B41005A7B4E /* Assets.xcassets in Resources */,
 				CAE73E8E24771B3E005A7B4E /* Main.storyboard in Resources */,
+				CA6CBBDA247B50210093D097 /* 98344885_589871521926218_5820213154650521600_n.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E2E7E1CCBDF606FCAEE5FCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TableViewPractice/Pods-TableViewPractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TableViewPractice/Pods-TableViewPractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TableViewPractice/Pods-TableViewPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9821AD695BBD286FAF5B5F1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TableViewPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CAE73E7F24771B3E005A7B4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAE73E8B24771B3E005A7B4E /* ViewController.swift in Sources */,
+				CA9C3287247998E600284E49 /* Payments.swift in Sources */,
+				CA9C32892479AACF00284E49 /* DashboardViewController.swift in Sources */,
+				CAE73E8B24771B3E005A7B4E /* IncomeViewController.swift in Sources */,
+				CA6CBBD6247B21940093D097 /* Savings.swift in Sources */,
 				CAE73E8724771B3E005A7B4E /* AppDelegate.swift in Sources */,
+				CA9C32852479986100284E49 /* PaymentViewController.swift in Sources */,
 				CAE73E8924771B3E005A7B4E /* SceneDelegate.swift in Sources */,
+				CABEF7A3247C513A00AC8B20 /* AnalyticsViewController.swift in Sources */,
+				CAE73E9D24771F8F005A7B4E /* Income .swift in Sources */,
+				CA6CBBD8247B2CB00093D097 /* ProjectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,35 +382,39 @@
 		};
 		CAE73E9824771B41005A7B4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA33779BADB3087C3693AD94 /* Pods-TableViewPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JBGJ7MNBUN;
 				INFOPLIST_FILE = TableViewPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.brandon.TableViewPractice;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DollarPlanner;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CAE73E9924771B41005A7B4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 066340654DE41D9BDA05DF39 /* Pods-TableViewPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JBGJ7MNBUN;
 				INFOPLIST_FILE = TableViewPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.brandon.TableViewPractice;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DollarPlanner;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
